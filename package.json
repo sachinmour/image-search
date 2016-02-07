@@ -1,0 +1,32 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinmour/image-search.git"
+  },
+  "keywords": [
+    "image",
+    "search",
+    "image-search",
+    "abstraction",
+    "freecodecamp"
+  ],
+  "author": "Sachin Mour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachinmour/image-search/issues"
+  },
+  "homepage": "https://github.com/sachinmour/image-search#readme",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
