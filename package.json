@@ -27,6 +27,7 @@
     "node": "4.2.4"
   },
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "node-bing-api": "^2.3.0"
   }
 }
