@@ -2,6 +2,8 @@
 
 require('dotenv').config();
 
+process.env.hist = new Array(10);
+
 var express = require('express'),
     routes = require('./app/routes/index.js');
     
