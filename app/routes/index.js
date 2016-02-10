@@ -17,6 +17,11 @@ module.exports = function (app) {
             search.search(search_string, req.query.offset, res);
         });
         
+    app.route('/')
+        .get(function(req, res) {
+            res.sendFile(process.cwd() + '/public/index.html');
+        });
+        
     app.route('/api/latest/imagesearch/')
         .get(function(req, res) {
             res.json(history);

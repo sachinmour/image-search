@@ -20,7 +20,6 @@ module.exports = function() {
               object.context = data.SourceUrl;
               array.push(object);
           });
-          console.log(array);
           response.json(array);
         });
     };
