@@ -10,7 +10,7 @@ module.exports = function() {
         if (!!offset) {
             options.skip = Number(offset);
         }
-        Bing.images("Ninja Turtles", options, function(error, res, body){
+        Bing.images(search_string, options, function(error, res, body){
           var array = [];
           body.d.results.forEach(function(data) {
               var object = { url: null, title: null, thumbnail: null, context: null };
